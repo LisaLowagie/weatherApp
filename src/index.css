@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
   background: yellow;
+=======
+  background: blue;
+>>>>>>> 2324aae4facfaf3c84ceeecb7b012e4120e0c7a4
 }
 .weather-app {
   background: white;
