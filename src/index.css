@@ -1,23 +1,22 @@
 body {
-<<<<<<< HEAD
-  background: yellow;
-=======
-  background: blue;
->>>>>>> 2324aae4facfaf3c84ceeecb7b012e4120e0c7a4
+  background: lightgrey;
+  font-family: "Edu AU VIC WA NT Guides", cursive;
 }
 .weather-app {
   background: white;
   max-width: 600px;
-  margin: 30px auto;
+  margin: 45px auto;
+  box-shadow: 0 30px 50px rgba(65, 50, 100 0.08);
+  border-radius: 16px;
   padding: 30px;
 }
 .input-city {
   border: none;
-  background: grey;
+  background: lightgrey;
   border-radius: 5px;
   padding: 10px;
 }
 .search-button {
   border: none;
-  color: grey;
+  color: lightgrey;
 }
