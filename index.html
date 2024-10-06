@@ -4,30 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
+    <link rel="stylesheet" href="src/index.css" />
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city" />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <h1>Paris</h1>
-      <p>Time, Condition, Humidity</p>
-      🌞 21°C
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/LisaLowagie" target="_blank"> Lisa Lowagie</a>
-      hosted on
-      <a href="https://github.com/LisaLowagie?tab=repositories" target="_blank">
-        open-sourced on Github</a
-      >
-      and hosted on
-      <a href="https://weatherapp-r1op.onrender.com/" target="_blank">
-        Render
-      </a>
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input
+            type="search"
+            placeholder="Enter a city"
+            class="input-city"
+            required
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Tuesday 14:49, Scattered clouds
+            <br />
+            Humidity
+          </p>
+          🌞 21°C
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/LisaLowagie" target="_blank">
+          Lisa Lowagie</a
+        >
+        hosted on
+        <a
+          href="https://github.com/LisaLowagie?tab=repositories"
+          target="_blank"
+        >
+          open-sourced on Github</a
+        >
+        and hosted on
+        <a href="https://weatherapp-r1op.onrender.com/" target="_blank">
+          Render
+        </a>
+      </footer>
+    </div>
   </body>
 </html>
